@@ -1,0 +1,19 @@
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+h1, h2 {
+    color: #343a40;
+}
+p {
+    color: #6c757d;
+}
+.jumbotron {
+    background-color: #dde7e0; 
+}

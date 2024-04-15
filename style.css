@@ -1,0 +1,171 @@
+/* CSS DA PAGINA PRINCIPAL */
+header {
+    background-color: transparent; 
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 451px;
+    background-image: url('IMG/fundo\ contato.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sobre {
+    background-color: #e2ebeb;
+    color: #000;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.text-center {
+    margin-top: -55px; 
+}
+/* CSS DA PAGINA PRINCIPAL */
+
+
+/* CSS DO FOOTER - RODAPÉ */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(45deg, #f0f5f6, #c4e0d9); 
+    color: #111;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+/* CSS DO FOOTER - RODAPÉ */
+
+
+/* Estilos gerais */
+.header-title-container {
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.header-title {
+    color: #fff; 
+    font-size: 3rem; 
+    font-family: 'Arial', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+    padding: 10px; 
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.navbar-nav li {
+    transition: all 0.3s ease;
+}
+
+.navbar-nav li:hover {
+    transform: translateY(-3px);
+}
+
+.header-title {
+    transition: all 0.3s ease;
+}
+
+.header-title:hover {
+    transform: scale(1.1);
+}
+
+.text-center img {
+    transition: all 0.3s ease;
+}
+
+.text-center img:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/* CSS PAGINA DE CONTATO*/
+
+.header {
+    background-image: url('IMG/fundo\ contato.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    text-align: center;
+    padding: 150px 0; 
+}
+
+.header h1 {
+    font-size: 36px;
+    border: 2px solid #f4f4f4; 
+    padding: 10px 20px; 
+    display: inline-block; 
+}
+/* CSS PAGINA DE CONTATO*/
+
+
+
+
+
+
+
+
+/* CSS PAGINA Do Port*/
+*
+.card {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-github {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-github:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+.github-icon {
+    font-size: 24px;
+    margin-right: 5px;
+}
